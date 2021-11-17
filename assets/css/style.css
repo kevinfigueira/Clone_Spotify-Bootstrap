@@ -1,0 +1,187 @@
+/* ======================== Layout ========================*/
+html, body{
+    overflow-x: hidden;
+}
+body{
+    background: url(/assets/img/capa.png),
+                url(/assets/img/ruido.png ),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ======================== Barra de navegação ========================*/
+nav.navbar-transparente{
+    background: rgba(0, 0, 0, .6);
+    padding: 15px 0;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: #9bf0e1;
+}
+.navbar-light .container .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .5);
+}
+.divisor{
+    width: 1px;
+    background-color: #fff;
+    margin: 8px 10px;
+}
+
+/* ======================== Home ========================*/
+#home{
+    height: 100vh;
+    text-align: center;
+}
+#home h1{
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+#home .btn-custom{
+    color: #fff;
+    border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+#home .btn-purple{
+    background-color: #7c25f8;
+}
+#home .btn-purple:hover{
+    background-color: #6207e3;
+}
+
+#home .btn-white{
+    border: 2px solid #fff;
+}
+#home .btn-white:hover{
+    background-color: #fff;
+    color: #000;
+}
+#home .carousel-control-next, #home .carousel-control-prev{
+    width: 5%;
+}
+/* ======================== Services ========================*/
+#services{
+    background-color: #fff;
+}
+.albuns{
+    padding: 20px 20px 20px 0;
+}
+#services h2, #services h3, #resources h2, #resources h3{
+    font-size: 3em;
+    color: #7c25f8;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+#services h3, #resources h3{
+    font-size: 2em;
+}
+/* ======================== RESOURCES ========================*/
+#resources h2, #resources p{
+    color: #fff;
+}
+#resources h3{
+    color: #9bf0e1;
+}
+.rotate{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+ /* ======================== Footer ========================*/
+ footer{
+    position: relative;
+    background-color: #000;
+    padding: 50px 0 20px 0;
+ }
+ footer h4{
+     color: #313436;
+     font-size: .8em;
+ }
+ footer .navbar-nav a{
+     color: #fff;
+     font-size: .8em;
+     text-decoration: none;
+ }
+ footer .navbar-nav a:hover{
+     color: #9bf0e1;
+ }
+ footer .list_social{
+    list-style: none;
+    display: flex;
+ }
+ footer .list_social li:not(:last-child){
+    margin-right: 10px;
+ }
+
+ /* ======================== @Media ========================*/
+ /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    #header .container{
+        padding: 0 15px;
+    }
+    #home h1{
+        font-size: 2em;
+    }
+    #home h1{
+        font-size: 2.5em;
+    }
+
+    #home .btn-custom{
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+    footer .list_social{
+        padding-top: 20px;
+        justify-content: flex-end;
+    }
+    footer h4{
+        margin-top: 20px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #home h1{
+        font-size: 3em;
+    }
+
+    #home .btn-custom{
+        margin: 10px 15px;
+    }
+    footer .list_social{
+        justify-content: flex-end;
+    }
+    footer h4{
+        margin-top: 20px;
+    }
+
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #home h1{
+        font-size: 4em;
+    }
+    footer img {
+        width: 100px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #home h1{
+        font-size: 5em;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    #home h1{
+        font-size: 6em;
+    }
+ }
