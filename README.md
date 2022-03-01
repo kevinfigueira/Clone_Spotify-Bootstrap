@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <!-- <a href="https://clone_spotifybootstrap.netlify.app">Demo</a> -->
+  <a href="https://kevinfigueira.github.io/Clone_Spotify-Bootstrap/">Demo</a>
 </div>
 
 <h1 align="center">Clone_Spotify Bootstrap</h1>
