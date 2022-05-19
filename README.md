@@ -72,7 +72,7 @@ $ git clone https://github.com/kevinfigueira/clone_spotify-bootstrap
 $ cd clone_spotify-bootstrap
 
 # Install extension "Go live" or acess "address of your project
-$ start extensio or acesss address
+$ start extension or acesss address
 
 # The server will initialize in the <http://localhost:5500> in Go live
 ```
